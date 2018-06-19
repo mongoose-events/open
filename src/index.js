@@ -14,7 +14,7 @@ var Logger = console;
  *
  * @returns {undefined}
  */
-function openEvent(CustomLogger) {
+function openEvent( CustomLogger ) {
   var db = this;
 
   if ( CustomLogger ) {
